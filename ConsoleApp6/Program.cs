@@ -29,7 +29,9 @@ namespace ConsoleApp6
                 //use generic type Test with a string type parameter
                 Test<string> test2 = new Test<string>("cat");
                 test2.Write();
+                Console.WriteLine("This is a test!");
             }
+            
         }
     }
 }
